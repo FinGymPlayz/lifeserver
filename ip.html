@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+<title>Server IP</title>
+    </head>
+
+
+    <body>
+
+        <script src="app.js"></script>
+
+        
+        <div class="text">
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+<style>
+.ipt{
+    font-size: 20px;
+    animation: 3s cc infinite;
+}
+
+@keyframes cc{
+    0%{
+        
+        transform: rotate(2deg);
+    }
+    25%{
+        
+        transform: rotate(-2deg); 
+    }
+    50%{
+     
+        transform: rotate(2deg);
+    }
+    75%{
+        
+        transform: rotate(-2deg);
+    }
+    100%{
+        
+        transform: rotate(2deg);
+    }
+}
+
+
+
+@keyframes ioi{
+    0%{
+        transform: scale(1.0);
+    }
+    50%{
+        transform: scale(1.07);
+    }
+    100%{
+        transform: scale(1.0);
+    }
+}
+
+.indexbtn{
+position:absolute;
+top:650px;
+right:100px;
+
+}
+
+</style>
+            <center class="ipt"><h1>IP: lifeserverf.org</h1></center>
+            <center><input type="text" value="lifeserverf.org" disabled></center>
+            <a href="index.html">
+            <center><button class="indexbtn">Go to Website</button></center>
+            </a>
+         
+            
+            <script>
+                function getip() {
+                    
+                    var copyText = document.getElementById("myInput");
+
+                    var msg = document.getElementById("msg").innerHTML = "Copied lifeserverf.org to clipboard"
+
+                    
+                    copyText.select();
+                    copyText.setSelectionRange(0, 99999);
+
+                    
+                    navigator.clipboard.writeText(copyText.value);
+                    setTimeout(() => {
+                        window.location.replace("index.html")
+                    }, 5000);
+                    }
+            
+            </script>
+        </div>
+    <body>
+<html>

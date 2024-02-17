@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Define the styles for the hippo */
+    .hippo {
+      width: 200px;
+      height: 200px;
+      position: relative;
+      animation: skate 1s ease-in-out infinite;
+    }
+    /* Define the animation for the hippo to skate */
+    @keyframes Skate {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(100px); }
+    }
+    /* Define the styles for the hippo's body */
+    .hippo .body {
+      width: 150px;
+      height: 150px;
+      background-color: gray;
+      border-radius: 75px 75px 60px 60px;
+      position: absolute;
+      top: 25px;
+      left: 25px;
+    }
+    /* Define the styles for the hippo's ears */
+    .hippo .ear {
+      width: 25px;
+      height: 50px;
+      background-color: gray;
+      border-radius: 20px 20px 0 0;
+      position: absolute;
+      top: 25px;
+    }
+    /* Position the left ear */
+    .hippo .ear.left {
+      left: -25px;
+    }
+    /* Position the right ear */
+    .hippo .ear.right {
+      left: 175px;
+    }
+    /* Define the styles for the hippo's eyes */
+    .hippo .eye {
+      width: 25px;
+      height: 25px;
+      background-color: white;
+      border-radius: 50%;
+      position: absolute;
+      top: 75px;
+    }
+    /* Position the left eye */
+    .hippo .eye.left {
+      left: 50px;
+    }
+    /* Position the right eye */
+    .hippo .eye.right {
+      left: 125px;
+    }
+    /* Define the styles for the hippo's pupils */
+    .hippo .pupil {
+      width: 10px;
+      height: 10px;
+      background-color: black;
+      border-radius: 50%;
+      position: absolute;
+      top: 80px;
+    }
+    /* Position the left pupil */
+    .hippo .pupil.left {
+      left: 55px;
+    }
+    /* Position the right pupil */
+    .hippo .pupil.right {
+      left: 130px;
+    }
+    /* Define the styles for the hippo's mouth */
+    .hippo .mouth {
+      width: 50px;
+      height: 25px;
+      background-color: black;
+      border-radius: 0 0 50px 50px;
+      position: absolute;
+      bottom: 0;
+      left: 75px;
+    }
+    /* Define the styles for the beanie */
+    .beanie {
+      width: 75px;
+      height: 25px;
+      background-color: black;
+      border-radius: 50px 50px

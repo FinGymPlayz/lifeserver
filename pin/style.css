@@ -1,0 +1,24 @@
+.text{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn{
+    background-color: aqua;
+    transition: all .2s ease-in-out;
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.btn:hover{
+    transform:scale(1.1);
+}
+
+.title{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: underline;
+}
